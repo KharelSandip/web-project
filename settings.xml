@@ -1,21 +1,21 @@
 <settings>
     <servers>
     <server>
-        <id>project-1-devops-cicd-project-1</id>
+        <id>sandip-devops-cicd-porject-1</id>
         <username>aws</username>
         <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
     </server>
     </servers>
     <profiles>
     <profile>
-        <id>project-1-devops-cicd-project-1</id>
+        <id>sandip-devops-cicd-porject-1</id>
         <activation>
         <activeByDefault>true</activeByDefault>
         </activation>
         <repositories>
         <repository>
-            <id>project-1-devops-cicd-project-1</id>
-            <url>https://project-1-501619571089.d.codeartifact.us-east-2.amazonaws.com/maven/devops-cicd-project-1/</url>
+            <id>sandip-devops-cicd-porject-1</id>
+            <url>https://sandip-501619571089.d.codeartifact.us-east-2.amazonaws.com/maven/devops-cicd-porject-1/</url>
         </repository>
         </repositories>
     </profile>
