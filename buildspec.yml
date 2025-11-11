@@ -4,6 +4,7 @@ phases:
   install:
     runtime-versions:
       java: corretto8
+
   pre_build:
     commands:
       - echo Initializing environment
@@ -17,6 +18,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn -s settings.xml package
+      
 artifacts:
   files:
     - target/nextwork-web-project.war
